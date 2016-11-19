@@ -33,7 +33,7 @@ upcoming feature in Rails 5.1 ([Pull Request](https://github.com/rails/rails/pul
 [Liceth](https://github.com/Liceth)!!
 
 - I was able to keep standard Rails folder structure
-(`app/assets/{javascripts,stylesheets,images,...}`, `public/assets`)
+(`app/assets/javascripts`, `app/assets/stylesheets`, `app/assets/images`, `public/assets`, ...)
 
 - Using loaders I added support for Sass, CoffeeScript (for compatibility
 with our current standards) and Babel (TheFuture™ is now).
@@ -42,9 +42,8 @@ with our current standards) and Babel (TheFuture™ is now).
 to deal with CSS, in the example is not used for fonts/images inside of
 CSS but I tested it and worked successfully, one thing that I see was that
 during development I had to refer to images/fonts using relative paths
-(e.g inside of `app/assets/stylesheets/application`.css I had `url
-(../images/rails.png)` to get the image living under `app/assets/images/rails.png`),
-I need to research more about this.
+(e.g inside of `application.css` I had `url(../images/rails.png)` to get the
+image living under `app/assets/images/rails.png`), I need to research more about this.
 
 - I added a [preloader for erb files](https://github.com/usabilityhub/rails-erb-loader)
 for the erb files that are part of the asset pipeline, I forked it and
