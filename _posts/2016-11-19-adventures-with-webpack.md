@@ -74,7 +74,7 @@ to get manifest working with current Rails view helpers (`javascript_include_tag
 
   2. Using `rails` to run `webpack` (as child process) in watch mode and emitting the assets to `tmp/webpack` in dev mode and using `ActionDispatch::Static` to serve the assets. This is all done in one [initializer](https://github.com/guilleiguaran/Todo/blob/master/config/initializers/assets.rb#L30-L35)
 
-- I discovered that Webpack 2 is almost ready (looks like only the docs
+- And finally I discovered that Webpack 2 is almost ready (looks like only the docs
  are stopping the release of the new version), it has so [many exciting
 new features](https://gist.github.com/sokra/27b24881210b56bbaff7) and that
 probably I should be using that version, so I'll work later in the upgrade
