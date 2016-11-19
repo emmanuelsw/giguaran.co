@@ -76,7 +76,8 @@ to get manifest working with current Rails view helpers (`javascript_include_tag
 
 - And finally I discovered that Webpack 2 is almost ready (looks like only the docs
  are stopping the release of the new version), it has so [many exciting
-new features](https://gist.github.com/sokra/27b24881210b56bbaff7) and that
+new features](https://gist.github.com/sokra/27b24881210b56bbaff7) including
+[Tree Shaking](https://blog.engineyard.com/2016/tree-shaking) and
 probably I should be using that version, so I'll work later in the upgrade
 to Webpack 2 beta.
 
