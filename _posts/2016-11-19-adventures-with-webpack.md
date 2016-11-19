@@ -49,13 +49,13 @@ I need to research more about this.
 - I added a [preloader for erb files](https://github.com/usabilityhub/rails-erb-loader)
 for the erb files that are part of the asset pipeline, I forked it and
 changed it to use Erubis instead of the stdlib ERB. (Thanks to [rhys-vdw](https://github.com/rhys-vdw)
-for merging the [Pull Request](https://github.com/usabilityhub/rails-erb-loader/pull/7))
+for merging the [Pull Request](https://github.com/usabilityhub/rails-erb-loader/pull/7)
 and releasing a new version so fast!!)
 
 - I moved `application.css` to `application.scss` to be able to load external
 stylesheets using the sass `@import`.
 
-- Moved the entire app from globals to modules, it wasn't so hard because
+- Moved the entire JS app code from globals to modules, it wasn't so hard because
 the app was pretty small but I can imagine that this would be a hard work
 in bigger applications not based in modules right now.
 
@@ -64,8 +64,7 @@ double-fingerprinting. In new apps this is easier to do passing the
 `--skip-sprockets` option to `rails new` command.
 
 - Generated a manifest using [webpack-manifest-plugin](https://github.com/danethurber/webpack-manifest-plugin)
-
-- I wrote a [small helper](https://github.com/guilleiguaran/Todo/blob/master/config/initializers/assets.rb#L1-L28)
+and wrote a [small helper](https://github.com/guilleiguaran/Todo/blob/master/config/initializers/assets.rb#L1-L28)
 to get manifest working with current Rails view helpers (`javascript_include_tag`,
 `stylesheet_link_tag`, `image_tag`, etc)
 
