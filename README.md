@@ -6,4 +6,5 @@ This blog is based in [Kiko](http://github.com/gfjaru/Kiko), Kiko is a theme for
 
 ## License
 
-All the blog posts are released under Creative Commons Attribution License (cc-by). The theme of this blog is released under MIT License. 
+All the blog posts are released under Creative Commons Attribution 4.0 License (cc-by). 
+The theme of this blog is released under MIT License. 
