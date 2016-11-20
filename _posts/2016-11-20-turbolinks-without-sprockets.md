@@ -5,8 +5,9 @@ description:  "Using Turbolinks 5 from npm without Sprockets"
 author:       "guilleiguaran"
 ---
 
-As you might know, I'm evaluating to Webpack as alternative to
-Sprockets in upcoming Rails version and I'm trying to get everything
+As you might know, I'm evaluating to [Webpack as alternative to
+Sprockets](http://giguaran.co/2016/11/19/adventures-with-webpack/)
+in upcoming Rails version and I'm trying to get everything
 working for existing and new apps including existing assets gem.
 
 One of the assets gem shipped by default in new Rails applications is
