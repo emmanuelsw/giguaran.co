@@ -30,7 +30,9 @@ disabled.
 As workaround is possible to disable autoloading of turbolinks gem in
 the Gemfile with the `require: false` option:
 
+```
 gem "turbolinks", "~> 5.0", require: false
+```
 
 And then including `Turbolinks::Redirection` manually in the
 ApplicationController of the app:
@@ -39,7 +41,9 @@ ApplicationController of the app:
 require "turbolinks/redirection"
 
 class ApplicationController < ActionController::Base
+  # (...)
   include Turbolinks::Redirection
+  # (...)
 ```
 
 and that's all!!
