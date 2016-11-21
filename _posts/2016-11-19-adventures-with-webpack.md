@@ -6,11 +6,13 @@ author:       "guilleiguaran"
 ---
 
 **Disclaimer**: This is not a introductorial post about Webpack or about
-using Webpack with Rails, if you need that I would recommend you read the
+using Webpack with Rails, if you need an intro I would recommend you to read
+the [Intro to Webpack by Kimberley Cook](https://medium.com/@kimberleycook/intro-to-webpack-1d035a47028d#.kc9vwprp1)
+and if you want to read about how to integrate it with Rails you can read the
 [awesome post by Samuel Mullen about this topic](http://pixelatedworks.com/articles/replacing-the-rails-asset-pipeline-with-webpack-and-yarn/).
 
 I started to play with Webpack a couple of days ago exploring it as
-alternative to Sprockets in the upcoming version of Rails (5.1),
+alternative to Sprockets in the upcoming version of Rails (5.1? 6.0?),
 with that on mind I wanted to check how far is possible to go
 integrating Rails with Webpack without having to change
 current Rails conventions (e.g folder structure, routes for assets,
