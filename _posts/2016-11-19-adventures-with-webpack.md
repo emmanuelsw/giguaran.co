@@ -31,8 +31,8 @@ notes about the process here:
 
 - Yarn is used for dependencies, that was already done in the
 [demo](https://github.com/Liceth/Todo) that I used as base and it is a
-upcoming feature in Rails 5.1 ([Pull Request](https://github.com/rails/rails/pull/26836)) thanks to
-[Liceth](https://github.com/Liceth)!!
+upcoming feature in Rails 5.1 ([Pull Request](https://github.com/rails/rails/pull/26836)) (thanks to
+[Liceth](https://github.com/Liceth))!!
 
 - I was able to keep standard Rails folder structure
 (`app/assets/javascripts`, `app/assets/stylesheets`, `app/assets/images`, `public/assets`, ...)
