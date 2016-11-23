@@ -37,4 +37,4 @@ as part of Google Summer of Code and you can still use jQuery in your
 new apps with the `-j` option (e.g `rails new blog -j jquery`)... or (protip!) you can
 use that option to get React instead (`rails new instagram -j react`) ;-).
 
-Too much nostalgia for a day, hasta la vista, jQuery. (do you remember that old movie? right?)
+Too much nostalgia for one day, hasta la vista, jQuery. (do you remember that old movie?)
