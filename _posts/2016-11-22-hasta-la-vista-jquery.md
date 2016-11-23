@@ -14,8 +14,8 @@ introduced the option to use JavaScript libraries as alternative to
 some others might remember how "hacky" was
 [using jQuery with Rails helpers in Rails 2.3](https://github.com/aaronchi/jrails/blob/master/lib/jrails.rb)),
 and others might remember also how excited we were with the
-introduction of Unobstrusive JavaScript (we had AJAX without writing one
-single line of code!!)
+introduction of [Unobstrusive JavaScript](http://guides.rubyonrails.org/3_0_release_notes.html#action-view) 
+(we had AJAX without writing one single line of code!!)
 
 Back in 2010 (and before) avoiding writing vanilla JavaScript and using
 frameworks for DOM manipulation, AJAX, events, etc was totally reasonable.
