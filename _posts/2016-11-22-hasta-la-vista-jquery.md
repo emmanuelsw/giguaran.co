@@ -21,7 +21,7 @@ Back in 2010 (and before) avoiding writing vanilla JavaScript and using
 frameworks for DOM manipulation, AJAX, events, etc was totally reasonable.
 Today the panorama is totally different: do you event listeners? AJAX?
 bind? query selector? You're totally covered by [plain ES5](https://plainjs.com/)
-(and hey ES7 is the new kid on the block nowadays!!), do you need `$(document).ready?`
+(and hey ES7 is the new kid on the block nowadays!!), do you need `$(document).ready`?
 [DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded)
 from HTML5 is your new best friend.
 
