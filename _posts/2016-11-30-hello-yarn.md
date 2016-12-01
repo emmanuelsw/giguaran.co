@@ -9,9 +9,8 @@ Starting from Rails 5.1, [Yarn](https://yarnpkg.com/)
 the awesome package manager from JavaScript community will
 be part of default Ruby on Rails stack and you can start to use it
 instead of having to find wrapper gems for all the front end
-libraries of your app (good bye `angularjs-rails`, `jquery-rails`, etc).
-
-And now some implementation details:
+libraries of your app (good bye `angularjs-rails`, `jquery-rails`,
+`backbone-rails`, etc).
 
 We are going to ship a `package.json` under `vendor` folder so the npm modules
 will be downloaded by default to `vendor/node_modules` folder and we have a
@@ -25,4 +24,5 @@ instead of having to refer to full path, e.g: `//= require
 jquery/dist/jquery`.
 
 Thanks to [Liceth](https://github.com/liceth) for all the work she put getting the [Pull
-Request for Yarn](https://github.com/rails/rails/pull/26836) ready.
+Request for Yarn](https://github.com/rails/rails/pull/26836) ready. Definitely Rails has been yarning for this
+since some time ago.
